@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".OperationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp"
+        android:textSize="20dp"
+        android:text="@string/lbl_rg_operations"/>
+
+    <RadioGroup
+        android:id="@+id/operation_rg_operations"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="15dp">
+
+        <RadioButton
+            android:id="@+id/operation_rb_area"
+            android:checked="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_rb_area"/>
+
+        <RadioButton
+            android:id="@+id/operation_rb_perimeter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/lbl_rb_perimeter"/>
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/operation_btn_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/lbl_btn_next"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"/>
+
+</LinearLayout>

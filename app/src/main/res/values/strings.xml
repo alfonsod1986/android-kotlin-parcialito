@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Parcialito</string>
+    <string name="lbl_rb_square">Cuadrado</string>
+    <string name="lbl_rb_rectangle">Rectángulo</string>
+    <string name="lbl_rb_triangle">Triángulo</string>
+    <string name="lbl_rb_circle">Círculo</string>
+    <string name="lbl_btn_next">Siguiente</string>
+    <string name="lbl_rg_figures">Escoge una figura:</string>
+    <string name="lbl_rg_operations">Escoge una operación:</string>
+    <string name="lbl_rb_area">Área</string>
+    <string name="lbl_rb_perimeter">Perímetro</string>
+    <string name="lbl_btn_calculate">Calcular</string>
+    <string name="lbl_hint_base">Escribe la base</string>
+    <string name="lbl_hint_height">Escribe la altura</string>
+    <string name="lbl_hint_side">Escribe el lado</string>
+    <string name="lbl_hint_radius">Escribe el radio</string>
+</resources>
